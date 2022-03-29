@@ -70,7 +70,7 @@ func main() {
   config := models.Config{
     CanisterName:   "dfinity_oracle_weather",
     UpdateInterval: 1 * time.Minute,
-    ReplaceCanisterCode: false,
+    ReplaceCanisterCode: true,
   }
   engine := models.Engine{
     Metadata: []models.MappingMetadata{

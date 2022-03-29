@@ -21,3 +21,10 @@ export WEATHERAPI_API_KEY='WEATHERAPI_API_KEY_GOES_HERE'
 export WEATHERBIT_API_KEY='WEATHERBIT_API_KEY_GOES_HERE'
 ./dfinity-weather-oracle
 ```
+
+Start asset server:
+```bash
+yarn start
+```
+
+Then open `http://localhost:8080` on your browser.
