@@ -24,6 +24,7 @@ export WEATHERBIT_API_KEY='WEATHERBIT_API_KEY_GOES_HERE'
 
 Start asset server:
 ```bash
+cd dfinity_oracle_weather
 yarn start
 ```
 
